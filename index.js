@@ -8,10 +8,8 @@ function takeANumber(katzDeliLine, name) {
 
 katzDeliLine = ["Ada", "Beth", "Cathy"]
 
-function nowServing() {
-  if katzDeliLine.length > 0 {
+  if (katzDeliLine.length > 0) {
     return katzDeliLine.shift()
   } else {
     return "There is nobody waiting to be served!"
   }
-}
